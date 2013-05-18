@@ -1,0 +1,24 @@
+[user]
+	name = Aaron Burtnyk
+	email = aaron.burtnyk@basekit.com
+[alias]
+	a = add
+	s = status
+	d = diff
+	ds = diff --stat
+	com = commit -m
+	ch = checkout
+	cp = cherry-pick
+	fa = fetch -a
+	sh = show
+	l = log
+	lp = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
+	ploc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pulling from $B..."; git pull origin $B; }; f"
+	stat1 = !git shortlog -s | sort -rn
+	stat2 = !git shortlog -s --no-merges | sort -rn
+	fff = flow feature finish
+	ffs = flow feature start
+[color]
+	ui = auto
+[color "diff"]
+	whitespace = red reverse
