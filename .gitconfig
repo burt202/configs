@@ -4,6 +4,7 @@
 [alias]
 	a = add
 	s = status
+	m = merge
 	d = diff
 	ds = diff --stat
 	com = commit -m
