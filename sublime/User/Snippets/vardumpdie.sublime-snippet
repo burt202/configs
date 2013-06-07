@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-echo ${1:var};
+var_dump($1);
 die;
 ]]></content>
-	<tabTrigger>edi</tabTrigger>
+	<tabTrigger>vdi</tabTrigger>
 	<scope>source.php</scope>
 </snippet>

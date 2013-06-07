@@ -1,13 +1,4 @@
 {
-    // Options pass to jslint.
-   "jslint_options": "--white --sloppy --bitwise --undef --nomen --regexp",
-
-    // Ignore errors, regex.
-    "ignore_errors":
-    [
-        "Do not use 'new' for side effects"
-    ],
-
-    // run jslint on save.
+	"jslint_options": "--sloppy --regexp --white --undef",
     "run_on_save": true
 }
