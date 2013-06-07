@@ -20,7 +20,7 @@ ctrl + shift + p = brings up command palette
 ctrl + shift + t = reopen last file
 
 alt + 1/2/3/4/5 = open tab 'x'
-shift + alt + 1/2 = toggle side by side layout
+shift + alt + 1/2/8 = toggle layout
 ctrl + shift + 1/2 = move file to other column in layout
 
 f6 = spellcheck

@@ -1,4 +1,4 @@
 {
-	"jslint_options": "--sloppy --regexp --white --undef",
+	"jslint_options": "--sloppy --nomen --white --undef",
     "run_on_save": true
 }
