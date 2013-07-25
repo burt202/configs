@@ -1,5 +1,5 @@
-ctrl + d = selects the current word, subsequent ctrl + d presses will select the following instance of the word for editing
-ctrl + f = file in file
+ctrl + d = selects the current word, subsequent ctrl + d presses will select the following instance of the word
+ctrl + f = find in file
 ctrl + g = goto specific line
 ctrl + h = find/replace
 ctrl + n = new file
@@ -18,9 +18,13 @@ ctrl + shift + d = duplicate current line
 ctrl + shift + f = find in whole project
 ctrl + shift + p = brings up command palette
 ctrl + shift + t = reopen last file
-
-alt + 1/2/3/4/5 = open tab 'x'
-shift + alt + 1/2/8 = toggle layout
 ctrl + shift + 1/2 = move file to other column in layout
+
+alt + f3 = highlights all instances of the current word
+alt + 1/2/3/4/5 = open tab 'x'
+
+shift + alt + 1/2/8 = toggle layout
+shift + alt + up/down = multiple cursors up/down
+shift + alt + left/right = select text left/right one word at a time
 
 f6 = spellcheck
