@@ -1,30 +1,57 @@
-ctrl + d = selects the current word, subsequent ctrl + d presses will select the following instance of the word
-ctrl + f = find in file
-ctrl + g = goto specific line
-ctrl + h = find/replace
+GENERAL
+-----------------------------
+ctrl + shift + p = command palette
+ctrl + kb = toggle sidebar
 ctrl + n = new file
-ctrl + p = quick file select
-ctrl + r = goto specific function
 ctrl + w = close file
-
-ctrl + tab = toggle tabs
 ctrl + up/down = scroll up/down
+f6 = spellcheck
+
+EDITING
+-----------------------------
+ctrl + x = delete line
+ctrl + enter = insert line after
+ctrl + shift + enter = insert line before
+ctrl + shift + up/down = move current line up/down
+ctrl + l = select line, repeat to select next lines
+ctrl + d = selects the current word, repeat to select other occurences
+ctrl + kk = delete from cursor to end of line
+ctrl + k + backspace = delete from cursor to start of line
+ctrl + shift + d = duplicate current line
+ctrl + j = join line below to the end of the current line
+ctrl + / = toggle comment current line
+ctrl + shift + / = toggle comment current selection
+ctrl + ku = transform to uppercase
+ctrl + kl = transform to lowercase
 ctrl + backspace = delete one word at a time
 ctrl + left mouseclick = mutliple cursors for line editing
-ctrl + / = toggle comment
-
-ctrl + shift + up/down = move current line up/down
-ctrl + shift + d = duplicate current line
-ctrl + shift + f = find in whole project
-ctrl + shift + p = brings up command palette
-ctrl + shift + t = reopen last file
-ctrl + shift + 1/2 = move file to other column in layout
-
-alt + f3 = highlights all instances of the current word
-alt + 1/2/3/4/5 = open tab 'x'
-
-shift + alt + 1/2/8 = toggle layout
-shift + alt + up/down = multiple cursors up/down
+shift + alt + down = multiple cursors down
 shift + alt + left/right = select text left/right one word at a time
 
-f6 = spellcheck
+NAVIGATION + FIND/REPLACE
+-----------------------------
+ctrl + p = goto file
+ctrl + r = goto specific function
+ctrl + g = goto specific line
+ctrl + f = find in file
+ctrl + shift + f = find in whole project
+alt + f3 = highlights all instances of the current word
+
+TABS
+-----------------------------
+ctrl + shift t = open last closed tab
+ctrl + tab = next tab
+alt + [NUM] = switch to specific tab
+
+SPLIT WINDOW
+-----------------------------
+alt + shift + 1/2/3/4/5 = change layout
+ctrl + [NUM] = jump to group
+ctrl + shift + [NUM] = Move file to specified group
+
+BOOKMARKS
+-----------------------------
+ctrl + f2 = toggle bookmark
+f2 = next bookmark
+shift + f2 = previous bookmark
+ctrl + shift + f2 = clear bookmarks
