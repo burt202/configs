@@ -1,0 +1,24 @@
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": ";"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"file": "res://Packages/Default/Add Line.sublime-macro"
+		},
+		"command": "run_macro_file"
+	}
+]

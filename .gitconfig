@@ -4,13 +4,14 @@
 [alias]
 	a = add
 	s = status
-	m = merge
 	d = diff
 	ds = diff --stat
+	dc = diff --cached
 	com = commit -m
 	ch = checkout
 	cp = cherry-pick
 	fa = fetch -a
+	mg = merge
 	sh = show
 	l = log
 	lp = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
