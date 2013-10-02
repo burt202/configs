@@ -2,5 +2,9 @@
     "caret_style": "phase",
     "highlight_line": true,
     "bold_folder_labels": true,
-    "highlight_modified_tabs": true
+    "highlight_modified_tabs": true,
+	"rulers":
+	[
+		120
+	]
 }
