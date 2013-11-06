@@ -1,23 +1,27 @@
 [user]
 	name = Aaron Burtnyk
 	email = aaron.burtnyk@basekit.com
+[core]
+	editor = "subl -w"
 [alias]
 	a = add
+	b = branch
 	s = status
 	d = diff
+	f = fetch
+	c = commit
+	l = log
+	bc = branch --contains
 	ds = diff --stat
 	dc = diff --cached
-	com = commit -m
+	ca = commit --amend
 	ch = checkout
 	cp = cherry-pick
-	fa = fetch -a
 	mg = merge
 	sh = show
-	l = log
+	al = config --get-regexp alias
 	lp = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
 	ploc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pulling from $B..."; git pull origin $B; }; f"
-	stat1 = !git shortlog -s | sort -rn
-	stat2 = !git shortlog -s --no-merges | sort -rn
 	fff = flow feature finish
 	ffs = flow feature start
 [color]
