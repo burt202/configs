@@ -6,25 +6,34 @@
 [alias]
 	a = add
 	b = branch
-	s = status
+	c = commit
 	d = diff
 	f = fetch
-	c = commit
-	l = log
+	g = grep -n
+	l = log --stat
+	m = merge
+	s = status
+
+	al = config --get-regexp alias
 	bc = branch --contains
-	ds = diff --stat
-	dc = diff --cached
 	ca = commit --amend
 	ch = checkout
 	cp = cherry-pick
-	mg = merge
+	dc = diff --cached
+	ds = diff --stat
+	dw = diff --color-words
+	gi = grep -ni
+	lp = log --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr) %C(blue)[%an]%Creset' --date=relative
 	sh = show
-	al = config --get-regexp alias
-	lp = log --pretty=format:'%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]' --decorate --date=short
+
 	ploc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pulling from $B..."; git pull origin $B; }; f"
+	psoc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pushing to $B..."; git push origin $B; }; f"
+
 	fff = flow feature finish
 	ffs = flow feature start
 [color]
 	ui = auto
 [color "diff"]
 	whitespace = red reverse
+[color "grep"]
+    match = green
