@@ -23,7 +23,8 @@
 	ds = diff --stat
 	dw = diff --color-words
 	gi = grep -ni
-	lp = log --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr) %C(blue)[%an]%Creset' --date=relative
+	lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cblue[%an]' --date=short
+	lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cblue[%an]' --date=short"
 	sh = show
 
 	ploc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pulling from $B..."; git pull origin $B; }; f"
