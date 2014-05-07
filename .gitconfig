@@ -1,40 +1,44 @@
 [user]
-	name = Aaron Burtnyk
-	email = aaron.burtnyk@basekit.com
+  name = Aaron Burtnyk
+  email = aaron.burtnyk@basekit.com
 [core]
-	editor = "subl -w"
+  editor = "subl -w"
 [alias]
-	a = add
-	b = branch
-	c = commit
-	d = diff
-	f = fetch
-	g = grep -n
-	l = log --stat
-	m = merge
-	s = status
+  a = add
+  b = branch
+  c = commit
+  d = diff
+  f = fetch
+  l = log --stat
+  m = merge
+  s = status
 
-	al = config --get-regexp alias
-	bc = branch --contains
-	ca = commit --amend
-	ch = checkout
-	cp = cherry-pick
-	dc = diff --cached
-	ds = diff --stat
-	dw = diff --color-words
-	gi = grep -ni
-	lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cblue[%an]' --date=short
-	lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cblue[%an]' --date=short"
-	sh = show
+  al = config --get-regexp alias
+  bc = branch --contains
+  ch = checkout
+  cp = cherry-pick
+  ds = diff --stat
+  dw = diff -w
+  lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cblue[%an]' --date=short
+  lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cblue[%an]' --date=short"
+  sh = show
 
-	ploc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pulling from $B..."; git pull origin $B; }; f"
-	psoc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pushing to $B..."; git push origin $B; }; f"
+  sa = "!sh -c 'git stash apply stash@{$1}' -"
+  sd = "!sh -c 'git stash drop stash@{$1}' -"
+  sl = stash list
+  ss = "!sh -c 'git stash show -p stash@{$1}' -"
 
-	fff = flow feature finish
-	ffs = flow feature start
+  ploc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pulling from $B..."; git pull origin $B; }; f"
+  psoc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pushing to $B..."; git push origin $B; }; f"
+
+  fff = flow feature finish
+  ffs = flow feature start
+
+  stats = shortlog -sn --no-merges
+  stalk = "!f() { git log --author=$1 --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short; }; f"
 [color]
-	ui = auto
+  ui = auto
 [color "diff"]
-	whitespace = red reverse
+  whitespace = red reverse
 [color "grep"]
-    match = green
+  match = green
