@@ -1,8 +1,10 @@
 [user]
   name = Aaron Burtnyk
-  email = aaron.burtnyk@basekit.com
+  email = email-goes-here
+
 [core]
   editor = "subl -w"
+
 [alias]
   a = add
   b = branch
@@ -15,12 +17,15 @@
 
   al = config --get-regexp alias
   bc = branch --contains
+  bd = branch -d
   ch = checkout
+  cl = clean -fd
   cp = cherry-pick
   ds = diff --stat
   dw = diff -w
-  lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cblue[%an]' --date=short
-  lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cblue[%an]' --date=short"
+  lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short
+  lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short"
+  rh = reset --hard
   sh = show
 
   sa = "!sh -c 'git stash apply stash@{$1}' -"
@@ -36,9 +41,9 @@
 
   stats = shortlog -sn --no-merges
   stalk = "!f() { git log --author=$1 --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short; }; f"
+
 [color]
-  ui = auto
+  ui = true
+
 [color "diff"]
-  whitespace = red reverse
-[color "grep"]
-  match = green
+  whitespace = white reverse
