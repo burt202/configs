@@ -4,6 +4,7 @@
 
 [core]
   editor = "subl -w"
+  autocrlf = input
 
 [alias]
   a = add
