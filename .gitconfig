@@ -3,7 +3,6 @@
   email = email-goes-here
 
 [core]
-  editor = "subl -w"
   autocrlf = input
 
 [alias]
@@ -20,12 +19,11 @@
   bc = branch --contains
   bd = branch -d
   ch = checkout
-  cl = clean -fd
   cp = cherry-pick
   ds = diff --stat
   dw = diff -w
-  lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short
-  lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short"
+  lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=local
+  lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=local"
   rh = reset --hard
   sh = show
 
