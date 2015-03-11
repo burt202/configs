@@ -1,11 +1,11 @@
 {
-  "cmd": ["node", "$file"],
-  "selector": "source.js",
+    "cmd": ["node", "$file"],
+    "selector": "source.js",
 
-  "variants": [
-    {
-      "name": "Jasmine",
-      "cmd": ["jasmine-node.cmd", "--verbose", "$file_name"]
-    }
-  ]
+    "variants": [
+        {
+            "name": "Jasmine",
+            "cmd": ["jasmine-node.cmd", "--verbose", "$file_name"]
+        }
+    ]
 }

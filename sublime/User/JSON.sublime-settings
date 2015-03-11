@@ -1,7 +1,6 @@
 {
     "extensions":
     [
-        "twig",
-        "view"
+        ".jshintrc"
     ]
 }

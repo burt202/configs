@@ -1,10 +1,10 @@
 <snippet>
-  <content><![CDATA[
+    <content><![CDATA[
 describe("$1", function() {
   it("$2", function() {
   });
 });
 ]]></content>
-	<tabTrigger>dit</tabTrigger>
+    <tabTrigger>dit</tabTrigger>
     <scope>source.js</scope>
 </snippet>

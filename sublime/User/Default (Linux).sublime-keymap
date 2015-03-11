@@ -1,4 +1,4 @@
 [
-{ "keys": ["ctrl+alt+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/User/end-semi.sublime-macro"} },
-{ "keys": ["ctrl+alt+shift+."], "command": "run_macro_file", "args": {"file": "Packages/User/array-arrow.sublime-macro"} }
+    { "keys": ["ctrl+alt+shift+;"], "command": "run_macro_file", "args": {"file": "Packages/User/end-semi.sublime-macro"} },
+    { "keys": ["ctrl+alt+shift+."], "command": "run_macro_file", "args": {"file": "Packages/User/array-arrow.sublime-macro"} }
 ]

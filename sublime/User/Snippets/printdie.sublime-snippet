@@ -1,9 +1,9 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 echo '<pre>';
 print_r($1);
 die;
 ]]></content>
-	<tabTrigger>pdi</tabTrigger>
-	<scope>source.php</scope>
+    <tabTrigger>pdi</tabTrigger>
+    <scope>source.php</scope>
 </snippet>

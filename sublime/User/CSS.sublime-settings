@@ -1,6 +1,7 @@
 {
-	"extensions":
-	[
-		"less"
-	]
+    "extensions":
+    [
+        "less",
+        "sass"
+    ]
 }
