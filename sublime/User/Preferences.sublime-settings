@@ -1,12 +1,14 @@
 {
-    "caret_style": "phase",
-    "highlight_line": true,
-    "bold_folder_labels": true,
-    "highlight_modified_tabs": true,
-    "rulers": [
+  "bold_folder_labels": true,
+  "caret_style": "phase",
+  "default_line_ending": "unix",
+  "font_size": 10,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "rulers": [
       120
-    ],
-    "translate_tabs_to_spaces": true,
-    "show_full_path": true,
-    "default_line_ending": "unix"
+  ],
+  "show_full_path": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
 }

@@ -1,7 +1,7 @@
 {
-    "extensions":
-    [
-        "twig",
-        "view"
-    ]
+  "extensions":
+  [
+    "twig",
+    "view"
+  ]
 }
