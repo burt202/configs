@@ -1,5 +1,5 @@
-GENERAL
------------------------------
+### general
+
 ctrl + shift + p = command palette
 ctrl + k,b = toggle sidebar
 ctrl + n = new file
@@ -7,32 +7,38 @@ ctrl + w = close file
 ctrl + up/down = scroll up/down
 f6 = spellcheck
 
-EDITING
------------------------------
-ctrl + shift + k = delete line
+### sidebar
+
+ctrl + 0 = select sidebar
+up/down/left/right = navigate files/directories
+
+### editing
+
 ctrl + enter = insert line after
 ctrl + shift + enter = insert line before
+ctrl + shift + k = delete line
 ctrl + shift + up/down = move current line up/down
-ctrl + shift + left/right = select text left/right one word at a time
 ctrl + l = select line, repeat to select next lines
 ctrl + d = selects the current word, repeat to select other occurences
 ctrl + d, ctrl + k = allows you to jump over the next instance of the word you're selecting
 ctrl + shift + d = duplicate current line
 ctrl + / = toggle comment current line
 ctrl + shift + / = toggle comment current selection
-ctrl + left mouseclick = mutliple cursors for line editing
-ctrl + delete = delete word forward
-ctrl + backspace = delete word backward
-ctrl + k, ctrl + k = delete to end
-ctrl + k, ctrl + backspace = delete to beginning
 ctrl + k, ctrl + u = upper case
 ctrl + k, ctrl + l = lower case
+shift + alt + up/down = multiple cursors up/down
+ctrl + k, ctrl + k = delete to end
+ctrl + k, ctrl + backspace = delete to beginning
+ctrl + shift + left/right = select text left/right one word at a time
+ctrl + left/right = navigate line one word at a time
+ctrl + j = join lines
 
-NAVIGATION + FIND/REPLACE
------------------------------
+### navigation + find/replace
+
 ctrl + p = goto file
 ctrl + r = goto specific function
 ctrl + g = goto specific line
+f12 = goto definition
 ctrl + f = find in file
 ctrl + m = jump to matching bracket
 ctrl + shift + f = find in folder
@@ -40,20 +46,20 @@ f3 = find next
 shift + f3 = find previous
 alt + f3 = highlights all instances of the current word
 
-TABS
------------------------------
+### tabs
+
 ctrl + shift t = open last closed tab
 ctrl + tab = next tab
 alt + [NUM] = switch to specific tab
 
-SPLIT WINDOW
------------------------------
+### window groups
+
 alt + shift + 1/2/3/4/5 = change layout
 ctrl + [NUM] = jump to group
 ctrl + shift + [NUM] = Move file to specified group
 
-BOOKMARKS
------------------------------
+### bookmarks
+
 ctrl + f2 = toggle bookmark
 f2 = next bookmark
 shift + f2 = previous bookmark
