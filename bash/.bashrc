@@ -1,3 +1,3 @@
 if [ -f ~/.bashrc_extras ]; then
-    . ~/.bashrc_extras
+  . ~/.bashrc_extras
 fi
