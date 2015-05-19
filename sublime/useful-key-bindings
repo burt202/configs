@@ -1,7 +1,8 @@
 ### general
 
 ctrl + shift + p = command palette
-ctrl + k,b = toggle sidebar
+ctrl + alt + p = quick switch project
+ctrl + k, ctrl + b = toggle sidebar
 ctrl + n = new file
 ctrl + w = close file
 ctrl + up/down = scroll up/down
@@ -54,7 +55,7 @@ alt + [NUM] = switch to specific tab
 
 ### window groups
 
-alt + shift + 1/2/3/4/5 = change layout
+shift + alt + 1/2/3/4/5 = change layout
 ctrl + [NUM] = jump to group
 ctrl + shift + [NUM] = move file to specified group
 
