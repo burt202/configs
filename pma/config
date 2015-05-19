@@ -1,0 +1,19 @@
+### cookie
+
+  $cfg['blowfish_secret'] = '';
+
+  $i = 0;
+  $i++;
+
+  $cfg['Servers'][$i]['auth_type'] = 'cookie';
+  $cfg['Servers'][$i]['host'] = '';
+
+### config
+
+  $i = 0;
+  $i++;
+
+  $cfg['Servers'][$i]['auth_type'] = 'config';
+  $cfg['Servers'][$i]['host'] = '';
+  $cfg['Servers'][$i]['user'] = '';
+  $cfg['Servers'][$i]['password'] = '';
