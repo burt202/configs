@@ -48,7 +48,7 @@ alt + f3 = highlights all instances of the current word
 
 ### tabs
 
-ctrl + shift t = open last closed tab
+ctrl + shift + t = open last closed tab
 ctrl + tab = next tab
 alt + [NUM] = switch to specific tab
 
