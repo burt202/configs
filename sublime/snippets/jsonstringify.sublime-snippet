@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[JSON.stringify($1)]]></content>
-    <tabTrigger>jstr</tabTrigger>
-    <scope>source.js</scope>
+  <content><![CDATA[JSON.stringify($1)]]></content>
+  <tabTrigger>jstr</tabTrigger>
+  <scope>source.js</scope>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[
+  <content><![CDATA[
 var_dump($1);
 die;
 ]]></content>
-    <tabTrigger>vdi</tabTrigger>
-    <scope>source.php</scope>
+  <tabTrigger>vdi</tabTrigger>
+  <scope>source.php</scope>
 </snippet>
