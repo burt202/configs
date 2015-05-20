@@ -4,6 +4,7 @@
 
 [core]
   autocrlf = input
+  editor = subl -n -w
 
 [alias]
   a = add
@@ -18,25 +19,27 @@
   al = config --get-regexp alias
   bc = branch --contains
   bd = branch -d
+  ca = commit --amend
   ch = checkout
   cp = cherry-pick
+  dg = diff --staged
   ds = diff --stat
   dw = diff -w
+  du = "!sh -c 'git diff --unified=$1' -"
   lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=local
   lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=local"
+  ms = merge --squash
   rh = reset --hard
-  sh = show
-
   sa = "!sh -c 'git stash apply stash@{$1}' -"
   sd = "!sh -c 'git stash drop stash@{$1}' -"
+  sh = show
   sl = stash list
+  sp = stash pop
   ss = "!sh -c 'git stash show -p stash@{$1}' -"
+  st = stash
 
-  ploc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pulling from $B..."; git pull origin $B; }; f"
+  ploc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pulling from $B..."; git pull --rebase origin $B; }; f"
   psoc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pushing to $B..."; git push origin $B; }; f"
-
-  fff = flow feature finish
-  ffs = flow feature start
 
   stats = shortlog -sn --no-merges
   stalk = "!f() { git log --author=$1 --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short; }; f"
