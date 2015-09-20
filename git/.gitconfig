@@ -7,7 +7,7 @@
   editor = subl -n -w
 
 [alias]
-  a = add
+  a = add --all
   b = branch
   c = commit
   d = diff
@@ -16,20 +16,23 @@
   m = merge
   s = status
 
-  al = config --get-regexp alias
   bc = branch --contains
   bd = branch -d
   ca = commit --amend
+  cl = config --list
   ch = checkout
   cp = cherry-pick
   dg = diff --staged
   ds = diff --stat
   dw = diff -w
   du = "!sh -c 'git diff --unified=$1' -"
+  ld = "!sh -c 'git log -p --all -- $1' -"
   lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=local
   lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=local"
+  ln = "!sh -c 'git log -n $1' -"
   ms = merge --squash
-  rh = reset --hard
+  pl = pull --rebase
+  ps = push
   sa = "!sh -c 'git stash apply stash@{$1}' -"
   sd = "!sh -c 'git stash drop stash@{$1}' -"
   sh = show
@@ -37,9 +40,6 @@
   sp = stash pop
   ss = "!sh -c 'git stash show -p stash@{$1}' -"
   st = stash
-
-  ploc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pulling from $B..."; git pull --rebase origin $B; }; f"
-  psoc = "!f() { B=`git branch | grep '^\\*' | awk '{print $2}'`; echo "Pushing to $B..."; git push origin $B; }; f"
 
   stats = shortlog -sn --no-merges
   stalk = "!f() { git log --author=$1 --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short; }; f"
@@ -49,3 +49,6 @@
 
 [color "diff"]
   whitespace = white reverse
+
+[push]
+  default = simple
