@@ -33,6 +33,8 @@
   ms = merge --squash
   pl = pull --rebase
   ps = push
+  rc = rebase --continue
+  rtl = reset --hard HEAD~1
   sa = "!sh -c 'git stash apply stash@{$1}' -"
   sd = "!sh -c 'git stash drop stash@{$1}' -"
   sh = show
