@@ -34,6 +34,4 @@ global modules
 ---------------------------------
 
   - mongo
-  - set up sublime projects
   - add bookmarks !IMPROVE
-  - add snippets !IMPROVE
