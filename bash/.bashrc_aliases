@@ -8,7 +8,7 @@ alias cl='clear'
 alias cls='clear; git status'
 
 jumpTo() {
-  cd /home/aburtnyk/dev/$1; echo -ne "\033]0;${1}\007"
+  cd ~/dev/$1; echo -ne "\033]0;${1}\007"
 }
 
 rename() {
