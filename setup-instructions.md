@@ -22,12 +22,18 @@ ssh
   - add key to bitbucket
 
 node
-   - install via nvm `https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04`
-   - add symlink `sudo ln -s /usr/bin/nodejs /usr/bin/node`
-   - npm `sudo apt-get install npm`
+  - install via nvm `https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04`
+  - add symlink `sudo ln -s /usr/bin/nodejs /usr/bin/node`
+  - npm `sudo apt-get install npm`
 
-global
+global modules
+  - gulp
+  - mocha
+  - pioneer
 
+---------------------------------
+
+  - mongo
   - set up sublime projects
   - add bookmarks !IMPROVE
   - add snippets !IMPROVE
