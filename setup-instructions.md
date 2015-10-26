@@ -34,6 +34,11 @@ global modules
 mongo
   - install via cmd `apt-get install -y mongodb`
 
+chromedriver
+  - install `https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/`
+
 ---------------------------------
 
   - add bookmarks !IMPROVE
+  - git hooks
+  - redis
