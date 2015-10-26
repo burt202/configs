@@ -1,0 +1,30 @@
+chrome
+  - make default
+
+sublime
+  - add license
+  - add symlink `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl`
+  - install package control
+  - install trusted packages
+  - add custom config `cp -r configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
+
+terminal
+  - edit bashrc
+  - add bashrc_extras
+
+git
+  - add gitconfig
+
+ssh
+  - generate `https://help.github.com/articles/generating-ssh-keys/`
+  - add key to github
+  - add key to bitbucket
+
+node
+  install via nvm `https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04`
+
+------------------------
+
+  - set up sublime projects
+  - add bookmarks !IMPROVE
+  - add snippets !IMPROVE
