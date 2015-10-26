@@ -31,7 +31,9 @@ global modules
   - mocha
   - pioneer
 
+mongo
+  - install via cmd `apt-get install -y mongodb`
+
 ---------------------------------
 
-  - mongo
   - add bookmarks !IMPROVE
