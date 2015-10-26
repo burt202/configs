@@ -11,7 +11,7 @@
   "show_full_path": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-	"folder_exclude_patterns": [
-	  "node_modules"
-	]
+  "folder_exclude_patterns": [
+    "node_modules"
+  ]
 }
