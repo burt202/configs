@@ -9,6 +9,7 @@ git
   - copy gitconfig `cp ~/configs/git/.gitconfig ~/`
   - edit email address
   - hooks
+  - fit-commit `https://github.com/m1foley/fit-commit`
 
 sublime
   - add license
