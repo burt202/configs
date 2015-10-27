@@ -1,3 +1,6 @@
+ubuntu
+  - enable workspaces
+
 chrome
   - make default
 
@@ -5,6 +8,7 @@ git
   - configs repo `git clone git@github.com:burt202/configs.git`
   - copy gitconfig `cp ~/configs/git/.gitconfig ~/`
   - edit email address
+  - hooks
 
 sublime
   - add license
@@ -30,9 +34,13 @@ global modules
   - gulp
   - mocha
   - pioneer
+  - coffeescript
 
 mongo
   - install via cmd `apt-get install -y mongodb`
+
+redis
+  - install `https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis`
 
 chromedriver
   - install `https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/`
@@ -40,5 +48,5 @@ chromedriver
 ---------------------------------
 
   - add bookmarks !IMPROVE
-  - git hooks
-  - redis
+  - other sublime plugins
+  - folder exclude path sublime
