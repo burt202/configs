@@ -1,5 +1,6 @@
 ubuntu
   - enable workspaces
+  - hide launcher
 
 chrome
   - make default
@@ -30,6 +31,7 @@ node
   - install via nvm `https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04`
   - add symlink `sudo ln -s /usr/bin/nodejs /usr/bin/node`
   - npm `sudo apt-get install npm`
+  - npm permission issues link `http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo`
 
 global modules
   - gulp
