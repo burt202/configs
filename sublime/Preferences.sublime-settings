@@ -1,17 +1,21 @@
 {
   "bold_folder_labels": true,
   "caret_style": "phase",
+  "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
   "default_line_ending": "unix",
+  "folder_exclude_patterns":
+  [
+    "node_modules"
+  ],
   "font_size": 10,
   "highlight_line": true,
   "highlight_modified_tabs": true,
-  "rulers": [
+  "rulers":
+  [
     120
   ],
   "show_full_path": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "folder_exclude_patterns": [
-    "node_modules"
-  ]
+  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS"]
 }
