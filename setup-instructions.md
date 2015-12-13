@@ -5,7 +5,13 @@ ubuntu
 chrome
   - make default
 
+ssh
+  - generate `https://help.github.com/articles/generating-ssh-keys/`
+  - add key to github
+  - add key to bitbucket
+
 git
+  - install git package `sudo apt-get install git`
   - configs repo `git clone git@github.com:burt202/configs.git`
   - copy gitconfig `cp ~/configs/git/.gitconfig ~/`
   - edit email address
@@ -21,11 +27,6 @@ sublime
 
 terminal
   - copy bashrc_aliases `cp ~/configs/bash/.bash_aliases ~/`
-
-ssh
-  - generate `https://help.github.com/articles/generating-ssh-keys/`
-  - add key to github
-  - add key to bitbucket
 
 node
   - install via nvm `https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04`
