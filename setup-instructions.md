@@ -28,10 +28,10 @@ terminal
   - copy bashrc_aliases `cp ~/configs/bash/.bash_aliases ~/`
 
 node
-  - install via nvm `https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04`
+  - install via nvm [https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04](https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04)
   - add symlink `sudo ln -s /usr/bin/nodejs /usr/bin/node`
   - npm `sudo apt-get install npm`
-  - npm permission issues link `http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo`
+  - npm permission issues link [http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo](http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo)
 
 global modules
   - gulp
@@ -43,10 +43,10 @@ mongo
   - install via cmd `apt-get install -y mongodb`
 
 redis
-  - install `https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis`
+  - install [https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis)
 
 chromedriver
-  - install `https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/`
+  - install [https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/](https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/)
 
 ---------------------------------
 
