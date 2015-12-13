@@ -6,17 +6,9 @@ chrome
   - make default
 
 ssh
-  - generate `https://help.github.com/articles/generating-ssh-keys/`
+  - generate [https://help.github.com/articles/generating-ssh-keys/](https://help.github.com/articles/generating-ssh-keys/)
   - add key to github
   - add key to bitbucket
-
-git
-  - install git package `sudo apt-get install git`
-  - configs repo `git clone git@github.com:burt202/configs.git`
-  - copy gitconfig `cp ~/configs/git/.gitconfig ~/`
-  - edit email address
-  - hooks
-  - fit-commit `https://github.com/m1foley/fit-commit`
 
 sublime
   - add license
@@ -24,6 +16,13 @@ sublime
   - install package control
   - install trusted packages
   - add custom config `cp -r ~/configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
+
+git
+  - configs repo `git clone git@github.com:burt202/configs.git`
+  - copy gitconfig `cp ~/configs/git/.gitconfig ~/`
+  - edit email address
+  - hooks
+  - fit-commit [https://github.com/m1foley/fit-commit](https://github.com/m1foley/fit-commit)
 
 terminal
   - copy bashrc_aliases `cp ~/configs/bash/.bash_aliases ~/`
