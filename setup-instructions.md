@@ -34,8 +34,9 @@ node
   - npm permission issues link [http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo](http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo)
 
 global modules
-  - gulp
   - mocha
+  - http-server
+  - gulp
   - pioneer
   - coffeescript
 
