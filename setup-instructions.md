@@ -36,6 +36,7 @@ node
 global modules
   - mocha
   - http-server
+  - jshint
   - gulp
   - pioneer
   - coffeescript
