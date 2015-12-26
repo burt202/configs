@@ -15,10 +15,10 @@ sublime
   - add symlink `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl`
   - install package control
   - install trusted packages
+  - configs repo `git clone git@github.com:burt202/configs.git`
   - add custom config `cp -r ~/configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
 
 git
-  - configs repo `git clone git@github.com:burt202/configs.git`
   - copy gitconfig `cp ~/configs/git/.gitconfig ~/`
   - edit email address
   - hooks
