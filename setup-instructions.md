@@ -36,7 +36,7 @@ node
 global modules
   - mocha
   - http-server
-  - jshint
+  - jshint (add path to sublime linter)
   - gulp
   - pioneer
   - coffeescript
