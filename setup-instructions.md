@@ -40,6 +40,7 @@ global modules
   - gulp
   - pioneer
   - coffeescript
+  - bower
 
 mongo
   - install via cmd `apt-get install -y mongodb`
@@ -50,8 +51,5 @@ redis
 chromedriver
   - install [https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/](https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/)
 
----------------------------------
-
-  - add bookmarks !IMPROVE
-  - other sublime plugins
-  - folder exclude path sublime
+php/mysql
+  - [https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu](https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu)
