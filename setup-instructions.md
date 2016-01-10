@@ -53,3 +53,8 @@ chromedriver
 
 php/mysql
   - install [https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu](https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu)
+
+troubleshooting
+  - https://ubuntugenius.wordpress.com/2011/01/08/ubuntu-cleanup-how-to-remove-all-unused-linux-kernel-headers-images-and-modules/
+  - http://stackoverflow.com/questions/16748737/grunt-watch-error-waiting-fatal-error-watch-enospc
+
