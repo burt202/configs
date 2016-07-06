@@ -1,34 +1,25 @@
-### SideBarEnhancements
-
-https://packagecontrol.io/packages/SideBarEnhancements
-https://github.com/titoBouzout/SideBarEnhancements
-
-### HTML-CSS-JS-Prettify
-
-https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify
-https://github.com/victorporof/Sublime-HTMLPrettify
-
-### TrailingSpaces
-
-https://packagecontrol.io/packages/TrailingSpaces
-https://github.com/SublimeText/TrailingSpaces
-
-## Git
-
-https://packagecontrol.io/packages/Git
-https://github.com/kemayo/sublime-text-git
-
-### SublimeLinter
-
-https://packagecontrol.io/packages/SublimeLinter
-https://github.com/SublimeLinter/SublimeLinter3
-
-### SublimeLinter-jshint
-
-https://packagecontrol.io/packages/SublimeLinter-jshint
-https://github.com/SublimeLinter/SublimeLinter-jshint
-
-### AllAutoComplete
+### Core
 
 https://packagecontrol.io/packages/All%20Autocomplete
-https://github.com/alienhard/SublimeAllAutocomplete
+https://packagecontrol.io/packages/File%20History
+https://packagecontrol.io/packages/Git
+https://packagecontrol.io/packages/Project%20Manager
+https://packagecontrol.io/packages/SideBarEnhancements
+https://packagecontrol.io/packages/SublimeLinter
+https://packagecontrol.io/packages/TrailingSpaces
+
+### CoffeeScript
+
+https://packagecontrol.io/packages/Better%20CoffeeScript
+https://packagecontrol.io/packages/CoffeeCompile
+https://packagecontrol.io/packages/SublimeLinter-coffeelint
+
+### Cucumber
+
+https://packagecontrol.io/packages/Cucumber
+
+### Javascript
+
+https://packagecontrol.io/packages/Babel
+https://packagecontrol.io/packages/SublimeLinter-contrib-eslint
+https://packagecontrol.io/packages/SublimeLinter-jsxhint
