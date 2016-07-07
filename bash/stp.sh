@@ -20,8 +20,8 @@ EOL
 
 ALL_REPOS=$(find $CODE_PATH -maxdepth 1 -type d | sed 1d)
 
-rm -rf $STP_PATH
-mkdir $STP_PATH
+rm $STP_PATH*.sublime-project
+mkdir -p $STP_PATH
 
 while read -r REPO; do
   REPO_NAME=$(echo $REPO | sed "s|$CODE_PATH||")
