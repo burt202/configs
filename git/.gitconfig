@@ -11,12 +11,10 @@
   b = branch
   c = commit
   d = diff
-  f = fetch
   l = log --stat
   m = merge
   s = status
 
-  bc = branch --contains
   bd = branch -d
   ca = commit --amend
   cl = config --list
@@ -34,6 +32,8 @@
   pl = pull --rebase
   ps = push
   rc = rebase --continue
+  rh = reset HEAD~
+  rs = reset --soft HEAD~
   rtl = reset --hard HEAD~1
   sa = "!sh -c 'git stash apply stash@{$1}' -"
   sd = "!sh -c 'git stash drop stash@{$1}' -"
