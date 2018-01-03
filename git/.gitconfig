@@ -17,6 +17,7 @@
 
   bd = branch -d
   ca = commit --amend
+  can = commit --amend --no-edit
   cl = config --list
   ch = checkout
   cp = cherry-pick
@@ -33,8 +34,8 @@
   ps = push
   rc = rebase --continue
   rh = reset HEAD~
-  rs = reset --soft HEAD~
-  rtl = reset --hard HEAD~1
+  rs = reset --soft HEAD^
+  rtl = reset --hard HEAD^
   sa = "!sh -c 'git stash apply stash@{$1}' -"
   sd = "!sh -c 'git stash drop stash@{$1}' -"
   sh = show
