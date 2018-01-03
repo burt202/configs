@@ -1,4 +1,5 @@
 ubuntu
+  - natural scrolling
   - enable workspaces
   - hide launcher
 
@@ -21,8 +22,6 @@ sublime
 git
   - copy gitconfig `cp ~/configs/git/.gitconfig ~/`
   - edit email address
-  - hooks
-  - fit-commit [https://github.com/m1foley/fit-commit](https://github.com/m1foley/fit-commit)
 
 terminal
   - copy bashrc_aliases `cp ~/configs/bash/.bash_aliases ~/`
@@ -30,17 +29,13 @@ terminal
 node
   - install via nvm [https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04](https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04)
   - add symlink `sudo ln -s /usr/bin/nodejs /usr/bin/node`
-  - npm `sudo apt-get install npm`
   - npm permission issues link [http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo](http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo)
 
 global modules
   - mocha
   - http-server
-  - jshint (add path to sublime linter)
   - gulp
   - pioneer
-  - coffeescript
-  - bower
 
 mongo
   - install via cmd `apt-get install -y mongodb`
