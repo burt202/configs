@@ -1,7 +1,6 @@
 ubuntu
-  - natural scrolling
-  - enable workspaces
-  - hide launcher
+  - `sudo apt install gnome-shell-extension-ubuntu-dock`
+  - `sudo apt install gnome-tweak-tool`
 
 chrome
   - make default
