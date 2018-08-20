@@ -17,6 +17,7 @@ sublime
   - install trusted packages
   - configs repo `git clone git@github.com:burt202/configs.git`
   - add custom config `cp -r ~/configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
+  - for SublimeLinter add node path to `linters.eslint.env` and `paths.linux`
 
 git
   - copy gitconfig `cp ~/configs/git/.gitconfig ~/`
