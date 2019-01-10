@@ -1,8 +1,0 @@
-<snippet>
-  <content><![CDATA[
-var_dump($1);
-die;
-]]></content>
-  <tabTrigger>vdi</tabTrigger>
-  <scope>source.php</scope>
-</snippet>

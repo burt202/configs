@@ -28,13 +28,11 @@
   ld = "!sh -c 'git log -p --all -- $1' -"
   lp = log --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=local
   lm = "!U=$(git config user.name) && git log --author="\"$U\"" --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=local"
-  ln = "!sh -c 'git log -n $1' -"
   ms = merge --squash
   pl = pull --rebase
   ps = push
   rc = rebase --continue
   rh = reset HEAD~
-  rs = reset --soft HEAD^
   rtl = reset --hard HEAD^
   sa = "!sh -c 'git stash apply stash@{$1}' -"
   sd = "!sh -c 'git stash drop stash@{$1}' -"

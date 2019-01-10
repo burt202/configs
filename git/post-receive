@@ -1,5 +1,0 @@
-#!/bin/sh
-cd [path]
-git --git-dir [path]/.git remote update origin
-git --git-dir [path]/.git reset --hard origin/master
-npm run deploy
