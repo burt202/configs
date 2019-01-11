@@ -1,7 +1,7 @@
 #!/bin/bash
 
-CODE_PATH="/home/aburtnyk/dev/"
-STP_PATH="/home/aburtnyk/sublime-projects/"
+CODE_PATH="/home/aaronb/dev/"
+STP_PATH="/home/aaronb/sublime-projects/"
 
 generateRepo() {
   PROJECT_NAME=$1

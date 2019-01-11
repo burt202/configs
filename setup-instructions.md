@@ -1,6 +1,7 @@
 ubuntu
   - `sudo apt install gnome-shell-extension-ubuntu-dock`
   - `sudo apt install gnome-tweak-tool`
+  - auto hide the dock
 
 chrome
   - make default
@@ -14,10 +15,10 @@ sublime
   - add license
   - add symlink `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl`
   - install package control
-  - install trusted packages
+  - install [trusted packages](https://github.com/burt202/configs/blob/master/sublime/trusted-packages)
   - configs repo `git clone git@github.com:burt202/configs.git`
   - add custom config `cp -r ~/configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
-  - for SublimeLinter add node path to `linters.eslint.env` and `paths.linux`
+  - for SublimeLinter add node path to `linters.eslint.env.PATH` and `paths.linux` - dont include `/node`
 
 git
   - copy gitconfig `cp ~/configs/git/.gitconfig ~/`
@@ -34,20 +35,10 @@ node
 global modules
   - mocha
   - http-server
-  - gulp
-  - pioneer
-
-mongo
-  - install via cmd `apt-get install -y mongodb`
-
-redis
-  - install [https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis)
+  - navy
 
 chromedriver
   - install [https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/](https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/)
-
-php/mysql
-  - install [https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu](https://www.vultr.com/docs/how-to-install-apache-mysql-and-php-on-ubuntu)
 
 troubleshooting
   - [https://ubuntugenius.wordpress.com/2011/01/08/ubuntu-cleanup-how-to-remove-all-unused-linux-kernel-headers-images-and-modules/](https://ubuntugenius.wordpress.com/2011/01/08/ubuntu-cleanup-how-to-remove-all-unused-linux-kernel-headers-images-and-modules/)
