@@ -7,6 +7,12 @@ https://packagecontrol.io/packages/SideBarEnhancements
 https://packagecontrol.io/packages/SublimeLinter
 https://packagecontrol.io/packages/TrailingSpaces
 
+### Javascript
+
+https://packagecontrol.io/packages/Babel
+https://packagecontrol.io/packages/SublimeLinter-eslint
+https://packagecontrol.io/packages/TypeScript%20Syntax
+
 ### CoffeeScript
 
 https://packagecontrol.io/packages/Better%20CoffeeScript
@@ -15,9 +21,3 @@ https://packagecontrol.io/packages/CoffeeCompile
 ### Cucumber
 
 https://packagecontrol.io/packages/Cucumber
-
-### Javascript
-
-https://packagecontrol.io/packages/Babel
-https://packagecontrol.io/packages/SublimeLinter-contrib-eslint
-https://packagecontrol.io/packages/SublimeLinter-jsxhint
