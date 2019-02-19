@@ -31,6 +31,7 @@ node
   - install via nvm [https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04](https://www.vultr.com/docs/install-node-js-nvm-on-ubuntu-14-04)
   - add symlink `sudo ln -s /usr/bin/nodejs /usr/bin/node`
   - npm permission issues link [http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo](http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo)
+  - update `node_path` setting in sublime preferences
 
 global modules
   - mocha
