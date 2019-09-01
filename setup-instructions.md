@@ -25,23 +25,23 @@ node
   - add symlink `sudo ln -s /usr/bin/nodejs /usr/bin/node`
   - npm permission issues link [http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo](http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo)
 
-  sublime
-    - add license
-    - add symlink `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl`
-    - install package control
-    - install [trusted packages](https://github.com/burt202/configs/blob/master/sublime/trusted-packages)
-    - add custom config `cp -r ~/configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
-    - update `node_path` setting in sublime preferences (include `/node`)
-    - for SublimeLinter set
-      - `linters.[linter_name].env.PATH` to node path (dont include `/node`)
-      - `paths.linux` to node path (dont include `/node`)
-    - for ProjectManager set
-      - `projects_path` to `/home/[user]/sublime-projects/`
-    - for JsPrettier set
-      - `auto_format_on_save` to true
-      - `node_path` to node path (include `/node`)
+sublime
+  - add license
+  - add symlink `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl`
+  - install package control
+  - install [trusted packages](https://github.com/burt202/configs/blob/master/sublime/trusted-packages)
+  - add custom config `cp -r ~/configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
+  - update `node_path` setting in sublime preferences (include `/node`)
+  - for SublimeLinter set
+    - `linters.[linter_name].env.PATH` to node path (dont include `/node`)
+    - `paths.linux` to node path (dont include `/node`)
+  - for ProjectManager set
+    - `projects_path` to `/home/[user]/sublime-projects/`
+  - for JsPrettier set
+    - `auto_format_on_save` to true
+    - `node_path` to node path (include `/node`)
 
-global modules
+global npm modules
   - mocha
   - http-server
   - eslint/tslint
@@ -50,6 +50,12 @@ docker and docker compose
   - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
   - may need to restart for user group change to take full effect
   - https://linuxize.com/post/how-to-install-and-use-docker-compose-on-ubuntu-18-04/
+
+android development (needs more detail)
+  - `sudo apt-get install build-essential`
+  - install SDK and android studio
+  - install python and java
+  - make sure paths are correct in `bashrc` and `/etc/environment`
 
 chromedriver
   - install [https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/](https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/)
