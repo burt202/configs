@@ -15,7 +15,8 @@
     "*.jar",
     "*.zip",
     "node_modules/",
-    "test_reports/"
+    "test_reports/",
+    "dist/"
   ],
   "bold_folder_labels": true,
   "caret_style": "phase",

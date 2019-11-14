@@ -62,6 +62,7 @@ chromedriver
 
 other
   - git-extras - sudo apt-get install git-extras
+  - htop - sudo apt-get install htop
   - fzf - https://github.com/junegunn/fzf#debian
 
 troubleshooting
