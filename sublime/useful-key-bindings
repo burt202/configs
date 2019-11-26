@@ -27,12 +27,16 @@ ctrl + / = toggle comment current line
 ctrl + shift + / = toggle comment current selection
 ctrl + k, ctrl + u = upper case
 ctrl + k, ctrl + l = lower case
-shift + alt + up/down = multiple cursors up/down
 ctrl + k, ctrl + k = delete to end
 ctrl + k, ctrl + backspace = delete to beginning
 ctrl + shift + left/right = select text left/right one word at a time
 ctrl + left/right = navigate line one word at a time
 ctrl + j = join lines
+
+### multiple cursors
+
+shift + alt + up/down = multiple cursors up/down
+ctrl + a, ctrl + shift + l = add cursor to every line
 
 ### navigation + find/replace
 
@@ -65,3 +69,8 @@ ctrl + f2 = toggle bookmark
 f2 = next bookmark
 shift + f2 = previous bookmark
 ctrl + shift + f2 = clear bookmarks
+
+### other
+
+make lines unique = Edit > Permute Lines > Unique
+
