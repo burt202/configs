@@ -18,3 +18,9 @@ rename() {
 alias jp=jumpTo
 alias rn=rename
 alias update-stp="~/configs/bash/stp.sh"
+
+alias develop='[ -x  ./develop.sh ] && ./develop.sh || navy develop'
+#alias clp="docker exec -it $(docker ps --filter "name=postgres" --format "{{.Names}}") psql -U postgres"
+alias clp='pgcli -h localhost -p $(navy port postgres 5432) -U postgres'
+alias kcd='kubectl -n dev'
+alias kcp='kubectl -n prod'
