@@ -1,6 +1,6 @@
 ubuntu
   - `sudo apt install gnome-shell-extension-ubuntu-dock`
-  - `sudo apt install gnome-tweak-tool`
+  - `sudo apt install gnome-tweaks`
   - auto hide the dock
 
 chrome
