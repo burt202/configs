@@ -47,7 +47,7 @@ global npm modules
   - eslint/tslint
 
 docker and docker compose
-  - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+  - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04 (including step 2)
   - may need to restart for user group change to take full effect
   - https://linuxize.com/post/how-to-install-and-use-docker-compose-on-ubuntu-18-04/
 
