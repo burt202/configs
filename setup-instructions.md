@@ -1,6 +1,7 @@
 ubuntu
   - `sudo apt install gnome-shell-extension-ubuntu-dock`
   - `sudo apt install gnome-tweaks`
+  - `sudo apt-get install build-essential`
   - auto hide the dock
 
 chrome
@@ -52,7 +53,6 @@ docker and docker compose
   - https://linuxize.com/post/how-to-install-and-use-docker-compose-on-ubuntu-18-04/
 
 android development (needs more detail)
-  - `sudo apt-get install build-essential`
   - install SDK and android studio
   - install python and java
   - make sure paths are correct in `bashrc` and `/etc/environment`
