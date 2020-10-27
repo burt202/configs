@@ -1,5 +1,5 @@
 <snippet>
   <content><![CDATA[console.log("$1---------------------->", $1)]]></content>
   <tabTrigger>cnll</tabTrigger>
-  <scope>source.js,source.ts</scope>
+  <scope>source.js,source.jsx,source.ts,source.tsx</scope>
 </snippet>
