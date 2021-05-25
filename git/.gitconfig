@@ -45,11 +45,8 @@
   stats = shortlog -sn --no-merges
   stalk = "!f() { git log --author=$1 --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short; }; f"
 
-[color]
-  ui = true
+[pull]
+  rebase = true
 
-[color "diff"]
-  whitespace = white reverse
-
-[push]
-  default = simple
+[rebase]
+  autoStash = true
