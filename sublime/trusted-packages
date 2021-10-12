@@ -1,13 +1,14 @@
 ### Core
 
-https://packagecontrol.io/packages/All%20Autocomplete
-https://packagecontrol.io/packages/Git
 https://packagecontrol.io/packages/Project%20Manager
-https://packagecontrol.io/packages/SideBarEnhancements
+https://packagecontrol.io/packages/FileManager
 https://packagecontrol.io/packages/SublimeLinter
-https://packagecontrol.io/packages/TrailingSpaces
+https://packagecontrol.io/packages/Terminus
 https://packagecontrol.io/packages/Pretty%20JSON
 https://packagecontrol.io/packages/BetterFindBuffer
+https://packagecontrol.io/packages/LSP
+https://packagecontrol.io/packages/All%20Autocomplete
+https://packagecontrol.io/packages/Git
 
 ### Javascript
 
@@ -17,9 +18,7 @@ https://packagecontrol.io/packages/SublimeLinter-eslint
 ### Typescript
 
 https://packagecontrol.io/packages/TypeScript
-https://packagecontrol.io/packages/SublimeLinter-tslint
-https://packagecontrol.io/packages/TypeScript%20Syntax
-https://packagecontrol.io/packages/ImportHelper
+https://packagecontrol.io/packages/LSP-typescript
 
 ### Prettier
 
@@ -28,11 +27,6 @@ https://packagecontrol.io/packages/JsPrettier
 ### GraphQL
 
 https://packagecontrol.io/packages/GraphQL
-
-### CoffeeScript
-
-https://packagecontrol.io/packages/Better%20CoffeeScript
-https://packagecontrol.io/packages/CoffeeCompile
 
 ### Cucumber
 
