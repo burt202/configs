@@ -41,6 +41,7 @@
   sp = stash pop
   ss = "!sh -c 'git stash show -p stash@{$1}' -"
   st = stash
+  un = reset --soft HEAD~1
 
   stats = shortlog -sn --no-merges
   stalk = "!f() { git log --author=$1 --pretty=format:'%C(yellow)%h %Creset%s %Cgreen[%ad] %Cred[%an]' --date=short; }; f"
