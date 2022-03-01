@@ -1,0 +1,25 @@
+[
+  {"keys": ["super+shift+c"], "command": "copy_path"},
+  {"keys": ["super+shift+o"], "command": "open_dir", "args": {"dir": "$file_path"}},
+  {"keys": ["super+shift+r"], "command": "reveal_in_side_bar"},
+  {"keys": ["super+alt+p"], "command": "project_manager", "args": {"action": "switch"}},
+  {"keys": ["super+up"], "command": "scroll_lines", "args": {"amount": 30.0} },
+  {"keys": ["super+down"], "command": "scroll_lines", "args": {"amount": -30.0} },
+  {"keys": ["super+alt+n"], "command": "fm_create"},
+  {
+    "keys": ["super+shift+5"],
+    "command": "set_layout",
+    "args": {
+      "cols": [0.0, 0.5, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2]],
+      "rows": [0.0, 0.5, 1.0]
+    }
+  },
+  { "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["super+shift+up"], "command": "swap_line_up" },
+  { "keys": ["super+shift+down"], "command": "swap_line_down" },
+  { "keys": ["super+left"], "command": "move", "args": {"by": "words", "forward": false} },
+  { "keys": ["super+right"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+  { "keys": ["super+shift+left"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+  { "keys": ["super+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} }
+]
