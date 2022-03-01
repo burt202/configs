@@ -31,7 +31,7 @@ ctrl + k, ctrl + k = delete to end
 ctrl + k, ctrl + backspace = delete to beginning
 ctrl + shift + left/right = select text left/right one word at a time
 ctrl + left/right = navigate line one word at a time
-ctrl + j = join lines
+ctrl + shift + j = join lines
 
 ### multiple cursors
 
