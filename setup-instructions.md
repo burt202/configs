@@ -10,7 +10,6 @@ chrome
 ssh
   - generate [https://help.github.com/articles/generating-ssh-keys/](https://help.github.com/articles/generating-ssh-keys/)
   - add key to github
-  - add key to bitbucket
 
 git
   - install
