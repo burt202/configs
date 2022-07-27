@@ -40,6 +40,9 @@ rectangle
   - install and give perms
   - update 3x split screen keyboard shortcuts (see below)
 
+install node/npm via nvm
+follow the rest of sublime setup_instructions
+
 keyboard shortcuts
   - split left = ctl + cmd + left
   - split right = ctl + cmd + right
