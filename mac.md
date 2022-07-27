@@ -2,6 +2,7 @@ set system preferences
   - dock left position
   - auto hide
   - dont show recent apps
+  - update modifier keys (usb keyboard will need doing as well as built in keyboard)
 
 install sublime text
   - add license
@@ -39,15 +40,12 @@ rectangle
   - install and give perms
   - update 3x split screen keyboard shortcuts (see below)
 
-- modifier keys
-- keyboard layout
-
 keyboard shortcuts
------------------
-home = shift + fn + left
-end = shift + fn + right
-skip word = opt + left/right
-f4 = launcher
-split left = ctl + cmd + left
-split right = ctl + cmd + right
-full screen = ctl + cmd + up
+  - split left = ctl + cmd + left
+  - split right = ctl + cmd + right
+  - full screen = ctl + cmd + up
+  - lock = ctrl + cmd + q
+  - screenshot = cmd + shft + 3/4
+  - terminal new tab = cmd + t
+  - terminal quit process = ctl + c
+  - hidden file toggle = cmd + shft + .
