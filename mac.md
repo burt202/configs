@@ -3,6 +3,7 @@ set system preferences
   - auto hide
   - dont show recent apps
   - update modifier keys (usb keyboard will need doing as well as built in keyboard)
+  - Finder > Preferences > Sidebar > tick home folder
 
 install sublime text
   - add license
