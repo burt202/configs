@@ -17,21 +17,30 @@ install bash
   - `brew install bash`
   - https://altoplace.com/posts/2021/how-to-configure-the-bash-shell-on-macos/ (PAY ATTENTION TO CORRECT PATH!!!)
 
-add ssh keys to github
+git/ssh/configs repo
+  - follow ssh setup_instructions
   - follow git setup_instructions
 
-follow terminal setup_instructions
-  - touch ~/.bash_profile
-    ```
-    if [ -f ~/.bash_aliases ]; then
-      . ~/.bash_aliases
-    fi
-    ```
+terminal
+  - follow terminal setup_instructions
+  - create bash profile file
+    - `touch ~/.bash_profile`
+    - add the following to the bash profile file
+      ```
+      if [ -f ~/.bash_aliases ]; then
+        . ~/.bash_aliases
+      fi
+      ```
+  - change bg/text colour
+  - untick Tab > Working directory or document
+  - untick Tab > Active process name
 
-- install rectangle
+rectangle
+  - install and give perms
+  - update 3x split screen keyboard shortcuts (see below)
+
 - modifier keys
 - keyboard layout
-- split screen keyboard shortcut
 
 keyboard shortcuts
 -----------------
@@ -41,4 +50,4 @@ skip word = opt + left/right
 f4 = launcher
 split left = ctl + cmd + left
 split right = ctl + cmd + right
-full screen = ctl + cmd + enter
+full screen = ctl + cmd + up
