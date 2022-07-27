@@ -3,19 +3,19 @@ set system preferences
   - auto hide
   - dont show recent apps
 
-sublime text
-  - Add license
+install sublime text
+  - add license
   - add subl to PATH
     - `sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl`
-
-install bash
-  - `brew install bash`
-  - https://altoplace.com/posts/2021/how-to-configure-the-bash-shell-on-macos/ (PAY ATTENTION TO CORRECT PATH!!!)
 
 install homebrew
   - add brew to PATH
     - `echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/$USER/.zprofile`
     - `eval $(/opt/homebrew/bin/brew shellenv)`
+
+install bash
+  - `brew install bash`
+  - https://altoplace.com/posts/2021/how-to-configure-the-bash-shell-on-macos/ (PAY ATTENTION TO CORRECT PATH!!!)
 
 add ssh keys to github
   - follow git setup_instructions
