@@ -26,11 +26,13 @@ terminal
   - follow terminal setup_instructions
   - create bash profile file
     - `touch ~/.bash_profile`
-    - add the following to the bash profile file
+    - add the following to `.bash_profile`
       ```
       if [ -f ~/.bash_aliases ]; then
         . ~/.bash_aliases
       fi
+      
+      export PATH=/opt/homebrew/bin:$PATH
       ```
   - change bg/text colour
   - untick Tab > Working directory or document
@@ -40,7 +42,14 @@ rectangle
   - install and give perms
   - update 3x split screen keyboard shortcuts (see below)
 
-install node/npm via nvm
+install node/npm via nvm 
+  - `brew install nvm`
+  -  add the following to the end of `.bash_profile`
+     ```
+     export NVM_DIR=~/.nvm
+     source $(brew --prefix nvm)/nvm.sh
+     ```
+
 follow the rest of sublime setup_instructions
 
 keyboard shortcuts
