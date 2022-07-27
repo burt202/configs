@@ -36,5 +36,6 @@
   "theme": "Default Dark.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "find_selected_text": true
+  "find_selected_text": true,
+  "scroll_past_end": true
 }
