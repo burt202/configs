@@ -4,6 +4,7 @@ set system preferences
   - dont show recent apps
   - update modifier keys (usb keyboard will need doing as well as built in keyboard)
   - Finder > Preferences > Sidebar > tick home folder
+  - remove all hot corners
 
 install sublime text
   - add license
