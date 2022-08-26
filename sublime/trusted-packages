@@ -10,18 +10,12 @@ https://packagecontrol.io/packages/LSP
 https://packagecontrol.io/packages/All%20Autocomplete
 https://packagecontrol.io/packages/Git
 
-### Javascript
+### Javascript/Typescript
 
-https://packagecontrol.io/packages/Babel
 https://packagecontrol.io/packages/SublimeLinter-eslint
-
-### Typescript
-
 https://packagecontrol.io/packages/LSP-typescript
-
-### Prettier
-
 https://packagecontrol.io/packages/JsPrettier
+https://packagecontrol.io/packages/ESLint-Formatter
 
 ### GraphQL
 
