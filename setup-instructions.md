@@ -33,8 +33,13 @@ sublime
   - add custom config `cp -r ~/configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
   - update `node_path` setting in sublime preferences (include `/node`)
   - for SublimeLinter set
-    - `linters.[linter_name].env.PATH` to node path (dont include `/node`)
-    - `paths.linux` to node path (dont include `/node`)
+    ```
+    "eslint": {
+      "executable": [INSTALL ESLINT GLOBAL AND USE 'WHICH ESLINT' PATH],
+      "lint_mode": "background",
+      "selector": "source.js,source.ts,source.jsx,source.tsx",
+    }
+    ```
   - for ProjectManager set
     - `projects_path` to `/home/[user]/sublime-projects/`
   - for JsPrettier set
