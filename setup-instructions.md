@@ -35,6 +35,9 @@ sublime
   - for SublimeLinter set
     ```
     "eslint": {
+      "env": {
+        "PATH": ['WHICH NODE' PATH WITHOUT '/node']
+      },
       "executable": [INSTALL ESLINT GLOBAL AND USE 'WHICH ESLINT' PATH],
       "lint_mode": "background",
       "selector": "source.js,source.ts,source.jsx,source.tsx",
