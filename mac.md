@@ -57,6 +57,8 @@ follow the rest of sublime setup_instructions
 install bash git completions
   - https://www.macinstruct.com/tutorials/how-to-enable-git-tab-autocomplete-on-your-mac/
 
+add owly
+
 keyboard shortcuts
   - split left = ctl + cmd + left
   - split right = ctl + cmd + right
