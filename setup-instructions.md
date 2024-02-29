@@ -26,33 +26,32 @@ node
   - npm permission issues link [http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo](http://stackoverflow.com/questions/16151018/npm-throws-error-without-sudo)
 
 sublime
+  - add `subl` shortcut
+    - `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl`
   - add license
-  - add symlink `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl`
   - install package control
   - install [trusted packages](https://github.com/burt202/configs/blob/master/sublime/trusted-packages)
   - add custom config `cp -r ~/configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
-  - update `node_path` setting in sublime preferences (include `/node`)
-  - for SublimeLinter set
+  - for SublimeLinter set the following within `linters`
     ```
     "eslint": {
-      "env": {
-        "PATH": ['WHICH NODE' PATH WITHOUT '/node']
-      },
-      "executable": [INSTALL ESLINT GLOBAL AND USE 'WHICH ESLINT' PATH],
+      "executable": "${folder}/node_modules/.bin/eslint",
       "lint_mode": "background",
       "selector": "source.js,source.ts,source.jsx,source.tsx",
     }
     ```
+  - for JsPrettier set the whole user settings as
+    ```
+    {
+      "prettier_cli_path": "./node_modules/.bin/prettier",
+      "auto_format_on_save": true
+    }
+    ```
   - for ProjectManager set
-    - `projects_path` to `/home/[user]/sublime-projects/`
-  - for JsPrettier set
-    - `auto_format_on_save` to true
-    - `node_path` to node path (include `/node`)
+    - `projects` to `/home/[user]/sublime-projects/`
 
 global npm modules
-  - mocha
   - http-server
-  - eslint/tslint
 
 docker and docker compose
   - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04 (including step 2)

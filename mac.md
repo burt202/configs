@@ -7,9 +7,9 @@ set system preferences
   - remove all hot corners
 
 install sublime text
-  - add license
-  - add subl to PATH
+  - add `subl` shortcut
     - `sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl`
+  - follow the rest of sublime setup_instructions but remember to change `ProjectManager.projects`
 
 install homebrew
   - add brew to PATH
@@ -19,6 +19,7 @@ install homebrew
 install bash
   - `brew install bash`
   - https://altoplace.com/posts/2021/how-to-configure-the-bash-shell-on-macos/ (PAY ATTENTION TO CORRECT PATH!!!)
+  - update `stp.sh` path
 
 git/ssh/configs repo
   - follow ssh setup_instructions
@@ -51,8 +52,6 @@ install node/npm via nvm
      export NVM_DIR=~/.nvm
      source $(brew --prefix nvm)/nvm.sh
      ```
-
-follow the rest of sublime setup_instructions
 
 install bash git completions
   - https://www.macinstruct.com/tutorials/how-to-enable-git-tab-autocomplete-on-your-mac/
