@@ -44,7 +44,8 @@ sublime
     ```
     {
       "prettier_cli_path": "${folder}/node_modules/.bin/prettier",
-      "auto_format_on_save": true
+      "auto_format_on_save": true,
+      "auto_format_on_save_requires_prettier_config": true,
     }
     ```
   - for ProjectManager set
