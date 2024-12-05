@@ -64,9 +64,6 @@ android development (needs more detail)
   - install python and java
   - make sure paths are correct in `bashrc` and `/etc/environment`
 
-chromedriver
-  - install [https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/](https://devblog.supportbee.com/2014/10/27/setting-up-cucumber-to-run-with-Chrome-on-Linux/)
-
 other
   - git-extras - sudo apt-get install git-extras
   - htop - sudo apt-get install htop
