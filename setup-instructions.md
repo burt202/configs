@@ -43,7 +43,7 @@ sublime
   - for JsPrettier set the whole user settings as
     ```
     {
-      "prettier_cli_path": "./node_modules/.bin/prettier",
+      "prettier_cli_path": "${folder}/node_modules/.bin/prettier",
       "auto_format_on_save": true
     }
     ```

@@ -1,5 +1,0 @@
-<snippet>
-  <content><![CDATA[console.log($1)]]></content>
-  <tabTrigger>cnls</tabTrigger>
-  <scope>source.js,source.jsx,source.ts,source.tsx</scope>
-</snippet>
