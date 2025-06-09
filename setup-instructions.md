@@ -32,13 +32,12 @@ sublime
   - install package control
   - install [trusted packages](https://github.com/burt202/configs/blob/master/sublime/trusted-packages)
   - add custom config `cp -r ~/configs/sublime/* ~/.config/sublime-text-3/Packages/User/`
-  - for SublimeLinter set the following within `linters`
+  - for LSP copy the default copy and override to enable auto eslint fixing on save:
     ```
-    "eslint": {
-      "executable": "${folder}/node_modules/.bin/eslint",
-      "lint_mode": "background",
-      "selector": "source.js,source.ts,source.jsx,source.tsx",
-    }
+    "lsp_code_actions_on_save": {
+      "source.fixAll": true,
+      // "source.organizeImports": true,
+    },
     ```
   - for JsPrettier set the whole user settings as
     ```

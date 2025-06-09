@@ -1,0 +1,2 @@
+Rebase commits: git rebase -i HEAD~[num_of_commits]
+Delete multiple branches: git branch -d `git branch --list 'chore/v*'`

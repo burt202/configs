@@ -2,25 +2,22 @@
 
 https://packagecontrol.io/packages/Project%20Manager
 https://packagecontrol.io/packages/FileManager
-https://packagecontrol.io/packages/SublimeLinter
-https://packagecontrol.io/packages/Terminus
-https://packagecontrol.io/packages/Pretty%20JSON
-https://packagecontrol.io/packages/BetterFindBuffer
 https://packagecontrol.io/packages/LSP
-https://packagecontrol.io/packages/All%20Autocomplete
-https://packagecontrol.io/packages/Git
+https://packagecontrol.io/packages/Terminus
 
 ### Javascript/Typescript
 
-https://packagecontrol.io/packages/SublimeLinter-eslint
 https://packagecontrol.io/packages/LSP-eslint
 https://packagecontrol.io/packages/LSP-typescript
 https://packagecontrol.io/packages/JsPrettier
 
-### GraphQL
+## Misc
 
+https://packagecontrol.io/packages/Pretty%20JSON
+https://packagecontrol.io/packages/SublimeLinter-eslint
+https://packagecontrol.io/packages/SublimeLinter
+https://packagecontrol.io/packages/BetterFindBuffer
+https://packagecontrol.io/packages/All%20Autocomplete
+https://packagecontrol.io/packages/Git
 https://packagecontrol.io/packages/GraphQL
-
-### Cucumber
-
 https://packagecontrol.io/packages/Cucumber
